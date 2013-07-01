@@ -1,0 +1,70 @@
+body {
+  font-family: 'Lucida Grande';
+  font-size: 12px;
+  width: 400px;
+  cursor: default;
+}
+
+ul#windows, ul#windows ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul#windows li {
+  margin: 0;
+  padding: 0;
+}
+
+ul#windows .window {
+  clear: both;
+}
+
+ul#windows .tabs {
+  
+}
+ul#windows .tab {
+  padding: 2px 0px 2px 6px;
+}
+ul#windows .tab:hover {
+  background-color: #f0f0f0;
+}
+
+ul#windows .tab .left {
+  float: left;
+  width: 46px;
+}
+ul#windows .tab .right {
+  margin-left: 46px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+ul#windows .tab .left input {
+  font-size: 16px;
+  cursor: pointer;
+}
+ul#windows .info {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ul#windows .window .title {
+  font-weight: bold;
+}
+
+ul#windows .tab .title {
+  font-weight: normal; 
+}
+
+ul#windows .tab img {
+  height: 14px;
+  width: 14px;
+  margin-bottom: -2px;
+}
+
+
+ul#windows .tab:after {
+  content: "";
+  display: table;
+  clear: both;
+}

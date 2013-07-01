@@ -1,0 +1,20 @@
+{
+  "extName": {
+    "message": "Tabs Manager" 
+  },
+ "extDescription": {
+   "message": "Hilft bei der Organisation der Tabs." 
+ },
+ "optDescription": {
+   "message": "... ersetzt automatisch Emails mit einem Email-Alias. Der Email-Alias wird aus Teilen der Domain zusammengesetzt." 
+ },
+ "optExample": {
+   "message": "john@example.com wird zu john<strong>+domain</strong>@example.com" 
+ },
+ "optEmailLabel": {
+   "message": "Aktiviere Magic Email-Alias für diese Email-Adressen ..." 
+ },
+ "optEmailHelp": {
+   "message": "Schreibe eine Email-Adresse pro Zeile." 
+ }
+}

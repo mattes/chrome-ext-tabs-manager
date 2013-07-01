@@ -1,0 +1,20 @@
+{
+  "extName": {
+    "message": "Tabs Manager" 
+  },
+ "extDescription": {
+   "message": "Manage your tabs." 
+ },
+ "optDescription": {
+   "message": "... automatically replaces emails with an email alias using the current domain while you are typing." 
+ },
+ "optExample": {
+   "message": "john@example.com becomes john<strong>+domain</strong>@example.com" 
+ },
+ "optEmailLabel": {
+   "message": "Activate Magic Email-Alias for this Emails ..." 
+ },
+ "optEmailHelp": {
+   "message": "Type one Email per line." 
+ }
+}
