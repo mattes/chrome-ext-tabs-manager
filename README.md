@@ -32,3 +32,5 @@ Install: XXX
  * it takes about 500ms until the popup is opened. is this due to the chrome animations or a performance issue?
  * hotkey support
  * direct/global icon which saves the tab as reference. so i dont have to open the popup first.
+ * translations
+ * extension icon? and icons overall...
