@@ -4,7 +4,7 @@ Chrome Tab Manager
 __Chrome Extension__
 (requires [Chrome](http://www.google.com/chrome))
 
-Install: XXX
+Install: http://goo.gl/Pi1jo 
 
 ### Problems
 
