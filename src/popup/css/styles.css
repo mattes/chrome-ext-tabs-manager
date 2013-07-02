@@ -3,12 +3,18 @@ body {
   font-size: 12px;
   width: 400px;
   cursor: default;
+  margin-right: 0px;
+}
+
+ul#windows {
+  max-height: 500px;
+  overflow: auto;
 }
 
 ul#windows, ul#windows ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 0 0;
+  padding: 0 6px 0 0;
 }
 ul#windows li {
   margin: 0;
@@ -39,21 +45,61 @@ ul#windows .tab .right {
   cursor: pointer;
 }
 
+ul#windows .tab .options {
+  display: none;
+  float: right;
+  padding-right: 4px;
+  padding-top: 3px;
+}
+
+ul#windows .tab:hover .options {
+  display: block;
+}
+
+
 ul#windows .tab .left input {
   font-size: 16px;
   cursor: pointer;
 }
 ul#windows .info {
+  display: none;
   margin-bottom: 10px;
   margin-top: 10px;
 }
+ul#windows .window {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c0c0c0; 
+}
+ul#windows .window:last-child {
+  border-bottom: 0;
+  padding-bottom: 0px;
+}
+
+
 
 ul#windows .window .title {
   font-weight: bold;
 }
 
+ul#windows .tab .right.saved-but-no-window-anymore .title {
+  /* color: #6c6c6c; */
+}
+
+ul#windows .tab .right.active .title {
+  font-weight: bold;
+}
+
 ul#windows .tab .title {
   font-weight: normal; 
+  word-wrap: break-word;
+  color: #000000;
+}
+
+ul#windows .tab .url {
+  font-size: 9px;
+  color: #6c6c6c;
+  word-wrap: break-word;
 }
 
 ul#windows .tab img {
