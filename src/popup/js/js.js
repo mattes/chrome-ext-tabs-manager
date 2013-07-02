@@ -95,7 +95,7 @@ var tabsTemplate = function(tab, activeTab){
         </div> \
         <div class="title" \
         title="'+(tab['title'].replace("'", '').replace('"', ''))+'">'
-        +(tab['title'] ? truncate(tab['title'], 50, ' ... ')  : 'What?! Where is the title?')+'</div> \
+        +(tab['title'] ? truncate(tab['title'], 40, ' ... ')  : 'What?! Where is the title?')+'</div> \
         <div class="url" \
         title="'+(tab['url'].replace("'", '').replace('"', ''))+'" \
         >' 
