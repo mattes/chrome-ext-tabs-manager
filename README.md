@@ -29,7 +29,7 @@ Install: http://goo.gl/Pi1jo
  * usability tests for re-opening windows/tabs
  * refactor html (especially the right options div)
  * replace checkbox with some fancy icon
- * it takes about 500ms until the popup is opened. is this due to the chrome animations or a performance issue?
+ * it takes about 500ms until the popup is opened. is this due to the chrome animations or a performance issue? https://code.google.com/p/chromium/issues/detail?id=112632
  * hotkey support
  * direct/global icon which saves the tab as reference. so i dont have to open the popup first.
  * translations
